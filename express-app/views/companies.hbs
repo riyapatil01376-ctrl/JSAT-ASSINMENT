@@ -1,0 +1,6 @@
+<section class="page-heading"><p class="eyebrow">EMPLOYER DIRECTORY</p><h1>Participating companies</h1><p>Compare employers and discover the roles they are bringing to campus.</p></section>
+<section class="grid">
+  {{#each companies}}
+    <article class="card"><div class="card-top"><span class="tag">{{industry}}</span><span>{{location}}</span></div><h2>{{name}}</h2><p>{{description}}</p><div class="card-meta"><strong>{{package}}</strong><span>average package</span></div><a class="text-link" href="/company/{{id}}">View company &rarr;</a></article>
+  {{/each}}
+</section>

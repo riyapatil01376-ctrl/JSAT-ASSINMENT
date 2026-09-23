@@ -1,0 +1,13 @@
+{
+  "name": "college-placement-express",
+  "version": "1.0.0",
+  "description": "College Placement Management System using Express and Handlebars",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1"
+  }
+}
